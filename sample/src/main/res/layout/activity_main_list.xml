@@ -50,7 +50,7 @@
 
 
 
-        <com.andexert.library.RippleView
+        <com.andexert.library.RippleReleativeLayout
             android:id="@+id/more"
             android:layout_width="?android:actionBarSize"
             android:layout_height="?android:actionBarSize"
@@ -64,9 +64,9 @@
                 android:layout_gravity="center"
                 android:padding="10dp"
                 android:background="@android:color/holo_blue_dark"/>
-        </com.andexert.library.RippleView>
+        </com.andexert.library.RippleReleativeLayout>
 
-        <com.andexert.library.RippleView
+        <com.andexert.library.RippleReleativeLayout
             android:id="@+id/more2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -80,12 +80,12 @@
             android:layout_gravity="center"
             android:padding="10dp"
             android:background="@android:color/holo_blue_dark"/>
-        </com.andexert.library.RippleView>
+        </com.andexert.library.RippleReleativeLayout>
 
     </RelativeLayout>
     </android.support.v7.widget.Toolbar>
 
-    <com.andexert.library.RippleView
+    <com.andexert.library.RippleReleativeLayout
         android:id="@+id/rect"
         android:layout_width="wrap_content"
         android:layout_below="@+id/actionbar"
@@ -108,7 +108,7 @@
             android:text="Hello World!"
             android:background="@android:color/holo_green_light"/>
 
-    </com.andexert.library.RippleView>
+    </com.andexert.library.RippleReleativeLayout>
 
     <ListView
         android:layout_below="@+id/rect"

@@ -13,7 +13,7 @@ import android.widget.AdapterView;
 import android.widget.ListView;
 import android.widget.TextView;
 
-import com.andexert.library.RippleView;
+import com.andexert.library.RippleReleativeLayout;
 
 import java.util.ArrayList;
 
@@ -31,7 +31,7 @@ public class MainActivity extends ActionBarActivity
         else
             setContentView(R.layout.activity_main_list);
 
-        final RippleView rippleView = (RippleView) findViewById(R.id.rect);
+        final RippleReleativeLayout rippleView = (RippleReleativeLayout) findViewById(R.id.rect);
         final TextView textView = (TextView) findViewById(R.id.rect_child);
         final Toolbar toolbar = (Toolbar) findViewById(R.id.actionbar);
 
